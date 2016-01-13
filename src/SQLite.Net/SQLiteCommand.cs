@@ -39,7 +39,7 @@ namespace SQLite.Net
 
         private readonly SQLiteConnection _conn;
         private readonly ISQLitePlatform _sqlitePlatform;
-        private const string DateTimeFormat = "yyyy-MM-ddTHH:mm:ss.fffffffZ";
+        private const string DateTimeFormat = "yyyy-MM-dd HH:mm:ss";
 
         internal SQLiteCommand(ISQLitePlatform platformImplementation, SQLiteConnection conn)
         {
